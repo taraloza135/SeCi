@@ -8,7 +8,6 @@ $CI = get_instance();
  * @param unknown $asData
  * @param string $ssFlag
  */
- 
 function _pr($asData, $ssFlag = '') {
     if ($ssFlag != '' && $ssFlag != '1') {
         echo "<pre>";
